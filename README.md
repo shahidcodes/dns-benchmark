@@ -5,7 +5,7 @@ Check average dns resolution time of your system dns resolver
 ## Usage
 
 ```bash
-bash bench-dns.sh
+curl -o- https://raw.githubusercontent.com/shahidcodes/dns-benchmark/main/bench-dns.sh | bash
 ```
 
 ## How does it work?
